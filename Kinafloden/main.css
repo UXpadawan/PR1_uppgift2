@@ -1,0 +1,106 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.section-dark h2{
+    background-color: rgb(34, 5, 5);
+}
+
+.bild1, .bild2, .bild3{
+    position: relative;
+    opacity: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bild1{
+    background-image: url(img/img1.jpg);
+    min-height: 100%;
+}
+
+.bild2{
+    background-image: url(img/riverbg2.jpg);
+    min-height: 30%;
+}
+
+.bild3{
+    background-image: url(img/riverbg3.jpg);
+    min-height: 400px;
+    
+}
+
+.section{
+    text-align: center;
+    padding: 1px 40px;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+    
+}
+.section-dark{
+    min-height: 50%;
+    background-color:#2e0910 ;
+    color: rgb(255, 208, 0);
+}
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #ffd000;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5c0011;
+    color: fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    max-width: 100%;
+}
+.ptext2 .border2{
+    position: absolute;
+    top:53.5%;
+    width: 100%;
+    text-align: center;
+    color: #ffd000;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    
+}
+.ptext .border-trans{
+    color: #ffffff;
+    font-size: 70%;
+    letter-spacing: 30px;
+}
+ol.meny{
+max-width: 50%;
+margin-left: 28%;
+text-decoration: underline;
+column-count: 2;
+column-gap: 10%;
+}
+p.plight{
+   text-align: center; 
+    padding: 40px 30%;
+}
+li{
+
+    max-width: 40%;
+}
+.bild1 .ptext .border{
+    font-size: 1.5em;
+}
