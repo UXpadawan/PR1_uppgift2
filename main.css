@@ -7,6 +7,11 @@ body, html{
     line-height: 1.8em;
     color: #666;
 }
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 .section-dark h2{
     background-color: rgb(34, 5, 5);
 }
@@ -71,13 +76,14 @@ body, html{
     max-width: 100%;
 }
 .ptext2 .border2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     top:55.5%;
     width: 100%;
     text-align: center;
     color: #ffd000;
     font-size: 25px;
-    letter-spacing: 10px;
+    letter-spacing: 12px;
     text-transform: uppercase;
     
 }
@@ -87,11 +93,11 @@ body, html{
     letter-spacing: 30px;
 }
 ol.meny{
-max-width: 50%;
-margin-left: 28%;
+
 text-decoration: underline;
 column-count: 2;
 column-gap: 10%;
+position: center center;
 }
 p.plight{
    text-align: center; 
