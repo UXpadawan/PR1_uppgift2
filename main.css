@@ -7,11 +7,6 @@ body, html{
     line-height: 1.8em;
     color: #666;
 }
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
 .section-dark h2{
     background-color: rgb(34, 5, 5);
 }
@@ -109,4 +104,9 @@ li{
 }
 .bild1 .ptext .border{
     font-size: 1.5em;
+}
+@media only screen and (max-device-width: 1024px) {
+    .bild1 .bild2 .bild3 {
+        background-attachment: scroll;
+    }
 }
