@@ -1,15 +1,49 @@
 body, html{
     height: 100%;
     margin: 0;
+    padding: 0;
     font-size: 16;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
+
 }
+
+
 .section-dark h2{
     background-color: rgb(34, 5, 5);
 }
+.meny-wrapper{
+    background-color: #5c0011;
+    
+    width: 100%;
+    
+    
+
+    
+}
+.meny{
+    margin: 0;
+    list-style-type: none;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.meny a{
+    color: #ffd000;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+    
+}
+a:hover{
+    color: #ffffff;
+}
+
 
 .bild1, .bild2, .bild3{
     position: relative;
@@ -55,7 +89,7 @@ body, html{
 .ptext{
     position: absolute;
     top:50%;
-    max-width: ;width: 100%;
+    width: 100%;
     text-align: center;
     color: #ffd000;
     font-size: 50px;
@@ -87,7 +121,7 @@ body, html{
     font-size: 70%;
     letter-spacing: 30px;
 }
-ol.meny{
+ol.dishes{
 
 text-decoration: underline;
 column-count: 2;
@@ -98,15 +132,51 @@ p.plight{
    text-align: center; 
     padding: 40px 30%;
 }
-li{
-
-    max-width: 40%;
-}
 .bild1 .ptext .border{
     font-size: 1.5em;
 }
-@media only screen and (max-device-width: 1024px) {
-    .bild1 .bild2 .bild3 {
-        background-attachment: scroll;
+footer{
+    background-color: #2e0910;
+    margin: 0;
+    padding: 0;
+}
+footer div p{
+    margin: 0;
+
+}
+@media screen and (max-width:500px){
+    
+    .meny{
+    margin: 0;
+    list-style-type: none;
+    font-size: 1em;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-block: 0;
+}
+
+
+}
+@media screen and (max-width: 635px){
+    .bild1 .ptext .border{
+        font-size: 10vw;
+    }
+
+    .ptext2 .border2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 55.5%;
+        width: 100%;
+        text-align: center;
+        color: #ffd000;
+        font-size: 3vw;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        background-color: #7d3341;
+    
+    }
+    p.plight {
+        text-align: center;
+        padding: 10px;
     }
 }
