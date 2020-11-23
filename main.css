@@ -141,6 +141,9 @@ footer{
     padding: 0;
 }
 footer div p{
+    font-size: 1.5em;
+    color: #ffd000;
+    text-align: center;
     margin: 0;
 
 }
